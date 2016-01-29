@@ -36,3 +36,15 @@ integrations:
       branches:
         only:
           - master
+
+    notifications:
+    - integrationName: ship-slack
+      type: slack
+      recipients:
+        - "#public-chnl"
+      branches:
+        - master
+      on_start: always  
+      on_success: always
+      on_failure: always
+        
