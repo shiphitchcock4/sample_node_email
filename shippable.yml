@@ -42,9 +42,5 @@ integrations:
       type: slack
       recipients:
         - pvt-channel
-      branches:
-        - master
-      on_start: always  
-      on_success: always 
-      on_failure: always
+      
         
