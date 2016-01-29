@@ -38,7 +38,7 @@ integrations:
           - master
 
   notifications:
-    - integrationName: ship-slack
+    - integrationName: ship-slackpvt
       type: slack
       recipients:
         - "#pvt-channel"
