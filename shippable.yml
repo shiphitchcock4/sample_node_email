@@ -37,7 +37,7 @@ integrations:
         only:
           - master
 
-    notifications:
+  notifications:
     - integrationName: ship-slack
       type: slack
       recipients:
