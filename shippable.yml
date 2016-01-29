@@ -41,7 +41,7 @@ integrations:
     - integrationName: ship-slack
       type: slack
       recipients:
-        - "#public-chnl"
+        - "#pvt-channel"
       branches:
         - master
       on_start: always  
