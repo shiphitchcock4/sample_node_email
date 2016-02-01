@@ -41,6 +41,6 @@ integrations:
     - integrationName: ship-slackpvt
       type: slack
       recipients:
-        - pvt-channel
+        - pvt-channel 
       
         
