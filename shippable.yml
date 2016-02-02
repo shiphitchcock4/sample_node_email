@@ -36,11 +36,11 @@ integrations:
       
 
   notifications:
-    - integrationName: ship-slackpvt
+    - integrationName: ship_slack
       type: slack
       recipients:
-        - pvt-channel
-      on_failure: change
+       "#public-channel"
+      on_start: always
      
       
         
