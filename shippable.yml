@@ -33,15 +33,13 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
+      
 
   notifications:
     - integrationName: ship-slackpvt
       type: slack
       recipients:
         - pvt-channel 
-      on_start: always
+      on_start: never
       
         
