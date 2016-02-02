@@ -42,7 +42,7 @@ integrations:
         "#public-chnl"
         "#random"
       on_start: always 
-      on_success: change
+      on_success: always
      
       
         
