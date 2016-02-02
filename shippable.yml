@@ -14,7 +14,7 @@ env:
   
 build:
   pre_ci:
-    - docker build -t=shippabledocker/sample_nod  
+    - docker build -t=shippabledocker/sample_node .
 
   pre_ci_boot:
     image_name: shippabledocker/sample_node
