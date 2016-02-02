@@ -42,5 +42,6 @@ integrations:
       type: slack
       recipients:
         - pvt-channel 
+      on_start: always
       
         
