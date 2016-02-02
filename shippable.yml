@@ -41,7 +41,7 @@ integrations:
       recipients:
         - "#public-chnl"
       on_start: always
-      on_success: never
+      on_success: always
      
       
         
