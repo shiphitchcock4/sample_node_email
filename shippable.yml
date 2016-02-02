@@ -40,7 +40,7 @@ integrations:
       type: slack
       recipients:
         - "#public-chnl"
-      on_start: always
+      on_start: always 
       on_success: change
      
       
