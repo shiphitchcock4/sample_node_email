@@ -39,7 +39,7 @@ integrations:
     - integrationName: ship_slack
       type: slack
       recipients:
-       "#public-chnl"
+        - public-chnl
       on_start: always
      
       
