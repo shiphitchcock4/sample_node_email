@@ -13,7 +13,7 @@ env:
     - M1=ONE
   
 build:
-  pre_ci:
+  pre_ci: 
     - docker build -t=shippabledocker/sample_node . 
 
   pre_ci_boot:
