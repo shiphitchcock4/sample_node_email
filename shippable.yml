@@ -40,6 +40,6 @@ integrations:
       type: slack
       recipients:
         - pvt-channel 
-      on_start: never
+      on_start: 
       
         
