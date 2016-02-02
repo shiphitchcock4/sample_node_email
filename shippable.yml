@@ -40,7 +40,7 @@ integrations:
       type: slack
       recipients:
         - pvt-channel
-      on_failure: never
+      on_failure: always
      
       
         
