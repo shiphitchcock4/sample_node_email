@@ -35,7 +35,7 @@ integrations:
       type: docker
       
 
-  notifications:
+  notifications:  
     - integrationName: ship_slack  
       type: slack
       recipients:
