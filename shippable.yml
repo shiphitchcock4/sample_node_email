@@ -14,7 +14,7 @@ env:
   
 build:
   pre_ci:
-    - docker build -t=shippabledocker/sample_node .  
+    - docker build -t=shippabledocker/sample_nod  
 
   pre_ci_boot:
     image_name: shippabledocker/sample_node
@@ -39,7 +39,8 @@ integrations:
     - integrationName: ship-slackpvt
       type: slack
       recipients:
-        - pvt-channel 
+        - pvt-channel
+      on_failure: never
      
       
         
