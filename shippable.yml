@@ -45,5 +45,3 @@ integrations:
         "#random"
       on_start: always
       on_success: always 
-      
-        
