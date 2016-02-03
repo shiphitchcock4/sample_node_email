@@ -42,8 +42,8 @@ integrations:
         - "#public-chnl"
         - "#random"
       on_start: always 
-      on_success: never
-      on_failure: never
+      on_success: always
+      on_failure: always
      
       
         
