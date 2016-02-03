@@ -38,7 +38,7 @@ integrations:
           - master
 
   notifications:
-    - integrationName: ship_slack
+    - integrationName: ship_slack  
       type: slack
       recipients:
         "#public-chnl" 
