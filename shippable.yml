@@ -35,7 +35,7 @@ integrations:
       type: docker
       branches:
         only:
-          - master
+          - master       
 
   notifications:
     - integrationName: ship_slack  
